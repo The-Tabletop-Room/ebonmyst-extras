@@ -7,6 +7,7 @@
     "minimum": "12",
     "verified": "12"
   },
+  "url": "https://github.com/The-Tabletop-Room/ebonmyst-extras",
   "relationships": {
     "systems": [
       {
@@ -28,11 +29,21 @@
       "flags": {}
     }
   ],
+  "packFolders": [
+    {
+      "name": "Ebonmyst-Extras",
+      "sorting": "a",
+      "packs": [
+        "extras-items",
+        "extras-bestiary"
+      ]
+    }
+  ],
   "packs": [
     {
-      "name": "eb-extras-items",
-      "label": "Ebonmyst Extras - Items",
-      "banner": "modules/ebonymyst-extras/media/banners/items.webp",
+      "name": "extras-items",
+      "label": "Items",
+      "banner": "modules/ebonmyst-extras/media/banners/items.webp",
       "path": "packs/extras-items",
       "type": "Item",
       "system": "pf2e",
@@ -42,8 +53,9 @@
       }
     },
     {
-      "name": "eb-extras-bestiary",
-      "label": "Ebonmyst Extras - Bestiary",
+      "name": "extras-bestiary",
+      "label": "Bestiary",
+      "banner": "modules/ebonmyst-extras/media/banners/bestiary.webp",
       "path": "packs/extras-bestiary",
       "type": "Actor",
       "system": "pf2e",
@@ -51,18 +63,6 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
-    }
-  ],
-  "packFolders": [
-    {
-      "name": "Ebonmyst Extras",
-      "sorting": "m",
-      "packs": [
-        "extras-items",
-        "extras-bestiary"
-      ],
-      "color": null,
-      "folders": []
     }
   ]
 }
