@@ -1,0 +1,68 @@
+{
+  "id": "ebonymyst-extras",
+  "title": "Ebonymyst Extras",
+  "description": "Extras for the homebrew campaign \"Ebonmyst\" created for use in The Tabletop Room community.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "The Tabletop Room",
+      "flags": {}
+    },
+    {
+      "name": "Vulgarbear",
+      "url": "https://github.com/VulgarBear",
+      "discord": "Vulgarbear",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "eb-extras-items",
+      "label": "Ebonmyst Extras - Items",
+      "banner": "modules/ebonymyst-extras/media/banners/items.webp",
+      "path": "packs/extras-items",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "eb-extras-bestiary",
+      "label": "Ebonmyst Extras - Bestiary",
+      "path": "packs/extras-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Ebonmyst Extras",
+      "sorting": "m",
+      "packs": [
+        "extras-items",
+        "extras-bestiary"
+      ],
+      "color": null,
+      "folders": []
+    }
+  ]
+}
