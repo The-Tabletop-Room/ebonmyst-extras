@@ -52,7 +52,7 @@ jobs:
           name: ${{ github.event.release.name }}
           draft: false
           prerelease: false
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.USER_TOKEN }}
           artifacts: './module.json, ./module.zip'
           tag: ${{ github.event.release.tag_name }}
           body: ${{ github.event.release.body }}
@@ -67,7 +67,7 @@ jobs:
           name: ${{ github.event.release.name }}
           draft: false
           prerelease: true
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.USER_TOKEN }}
           artifacts: './module.json, ./module.zip'
           tag: ${{ github.event.release.tag_name }}
           body: ${{ github.event.release.body }}
@@ -81,7 +81,7 @@ jobs:
           git add module.json
           git stash
           git clean -f
-          git remote set-url origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/$GITHUB_REPOSITORY"
+          git remote set-url origin "https://x-access-token:${{ secrets.USER_TOKEN }}@github.com/$GITHUB_REPOSITORY"
           git fetch origin "next"
           git switch -c "next" "origin/next"
           git checkout stash module.json
