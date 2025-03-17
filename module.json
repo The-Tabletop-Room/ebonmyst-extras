@@ -2,7 +2,7 @@
   "id": "ebonmyst-extras",
   "title": "Ebonmyst Extras",
   "description": "Extras for the homebrew campaign \"Ebonmyst\" created for use in The Tabletop Room community.",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
