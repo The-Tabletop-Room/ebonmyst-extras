@@ -2,7 +2,7 @@
   "id": "ebonmyst-extras",
   "title": "Ebonmyst Extras",
   "description": "Extras for the homebrew campaign \"Ebonmyst\" created for use in The Tabletop Room community.",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -43,7 +43,7 @@
     {
       "name": "extras-items",
       "label": "Items",
-      "banner": "modules/ebonmyst-extras/media/banners/items.webp",
+      "banner": "modules/ebonmyst-extras/media/banners/ebonmyst.webp",
       "path": "packs/extras-items",
       "type": "Item",
       "system": "pf2e",
@@ -55,9 +55,33 @@
     {
       "name": "extras-bestiary",
       "label": "Bestiary",
-      "banner": "modules/ebonmyst-extras/media/banners/bestiary.webp",
+      "banner": "modules/ebonmyst-extras/media/banners/ebonmyst.webp",
       "path": "packs/extras-bestiary",
       "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "extras-effect",
+      "label": "Effects",
+      "banner": "modules/ebonmyst-extras/media/banners/ebonmyst.webp",
+      "path": "packs/extras-effects",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "extras-deities",
+      "label": "Deities",
+      "banner": "modules/ebonmyst-extras/media/banners/ebonmyst.webp",
+      "path": "packs/extras-deities",
+      "type": "Item",
       "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
