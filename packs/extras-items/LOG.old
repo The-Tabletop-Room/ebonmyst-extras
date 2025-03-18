@@ -1,24 +1,3 @@
-2025/03/16-22:25:40.513 90bc Recovering log #160
-2025/03/16-22:25:40.513 90bc Level-0 table #162: started
-2025/03/16-22:25:40.555 90bc Level-0 table #162: 29165 bytes OK
-2025/03/16-22:25:40.617 90bc Delete type=0 #160
-2025/03/16-22:25:40.618 90bc Delete type=3 #159
-2025/03/16-22:35:37.675 86ec Level-0 table #165: started
-2025/03/16-22:35:37.728 86ec Level-0 table #165: 39571 bytes OK
-2025/03/16-22:35:37.751 86ec Delete type=0 #163
-2025/03/16-22:35:37.795 86ec Manual compaction at level-0 from '!folders!Be21Hs6Ph0AqCUp6' @ 72057594037927935 : 1 .. '!items!yikOMA61XEFACVyE' @ 0 : 0; will stop at '!items!yikOMA61XEFACVyE' @ 505 : 1
-2025/03/16-22:35:37.795 86ec Compacting 2@0 + 0@1 files
-2025/03/16-22:35:37.852 86ec Generated table #166@0: 25 keys, 29873 bytes
-2025/03/16-22:35:37.854 86ec Compacted 2@0 + 0@1 files => 29873 bytes
-2025/03/16-22:35:37.883 86ec compacted to: files[ 0 1 1 0 0 0 0 ]
-2025/03/16-22:35:37.884 86ec Delete type=2 #162
-2025/03/16-22:35:37.884 86ec Delete type=2 #165
-2025/03/16-22:35:37.916 86ec Manual compaction at level-0 from '!items!yikOMA61XEFACVyE' @ 505 : 1 .. '!items!yikOMA61XEFACVyE' @ 0 : 0; will stop at (end)
-2025/03/16-22:35:37.930 86ec Manual compaction at level-1 from '!folders!Be21Hs6Ph0AqCUp6' @ 72057594037927935 : 1 .. '!items!yikOMA61XEFACVyE' @ 0 : 0; will stop at '!items!yikOMA61XEFACVyE' @ 505 : 1
-2025/03/16-22:35:37.930 86ec Compacting 1@1 + 1@2 files
-2025/03/16-22:35:37.971 86ec Generated table #167@1: 24 keys, 29847 bytes
-2025/03/16-22:35:37.971 86ec Compacted 1@1 + 1@2 files => 29847 bytes
-2025/03/16-22:35:37.994 86ec compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/03/16-22:35:37.994 86ec Delete type=2 #158
-2025/03/16-22:35:37.995 86ec Delete type=2 #166
-2025/03/16-22:35:38.027 86ec Manual compaction at level-1 from '!items!yikOMA61XEFACVyE' @ 505 : 1 .. '!items!yikOMA61XEFACVyE' @ 0 : 0; will stop at (end)
+2025/03/17-02:23:04.010 9aa8 Recovering log #205
+2025/03/17-02:23:04.070 9aa8 Delete type=0 #205
+2025/03/17-02:23:04.071 9aa8 Delete type=3 #203

@@ -35,7 +35,12 @@
       "sorting": "a",
       "packs": [
         "extras-items",
-        "extras-bestiary"
+        "extras-bestiary",
+        "extras-effect",
+        "extras-deities",
+        "extras-tables",
+        "extras-journals",
+        "extras-macros"
       ]
     }
   ],
@@ -87,7 +92,44 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "extras-tables",
+      "label": "Roll Tables",
+      "banner": "modules/ebonmyst-extras/media/banners/ebonmyst.webp",
+      "path": "packs/extras-tables",
+      "type": "RollTable",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "extras-journals",
+      "label": "Journal Entries",
+      "banner": "modules/ebonmyst-extras/media/banners/ebonmyst.webp",
+      "path": "packs/extras-journals",
+      "type": "JournalEntry",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "extras-macros",
+      "label": "Macros",
+      "banner": "modules/ebonmyst-extras/media/banners/ebonmyst.webp",
+      "path": "packs/extras-macros",
+      "type": "Macro",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
+
   ],
   "manifest": "https://github.com/The-Tabletop-Room/ebonmyst-extras/releases/latest/download/module.json",
   "download": "https://github.com/The-Tabletop-Room/ebonmyst-extras/releases/latest/download/module.zip",
