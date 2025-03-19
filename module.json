@@ -47,7 +47,7 @@
   "packs": [
     {
       "name": "extras-items",
-      "label": "Items",
+      "label": "Ebonmyst Items",
       "banner": "modules/ebonmyst-extras/media/banners/ebonmyst.webp",
       "path": "packs/extras-items",
       "type": "Item",
@@ -59,7 +59,7 @@
     },
     {
       "name": "extras-bestiary",
-      "label": "Bestiary",
+      "label": "Ebonmyst Bestiary",
       "banner": "modules/ebonmyst-extras/media/banners/ebonmyst.webp",
       "path": "packs/extras-bestiary",
       "type": "Actor",
@@ -71,7 +71,7 @@
     },
     {
       "name": "extras-effect",
-      "label": "Effects",
+      "label": "Ebonmyst Effects",
       "banner": "modules/ebonmyst-extras/media/banners/ebonmyst.webp",
       "path": "packs/extras-effects",
       "type": "Item",
@@ -83,7 +83,7 @@
     },
     {
       "name": "extras-deities",
-      "label": "Deities",
+      "label": "Ebonmyst Deities",
       "banner": "modules/ebonmyst-extras/media/banners/ebonmyst.webp",
       "path": "packs/extras-deities",
       "type": "Item",
@@ -95,7 +95,7 @@
     },
     {
       "name": "extras-tables",
-      "label": "Roll Tables",
+      "label": "Ebonmyst Tables",
       "banner": "modules/ebonmyst-extras/media/banners/ebonmyst.webp",
       "path": "packs/extras-tables",
       "type": "RollTable",
@@ -107,7 +107,7 @@
     },
     {
       "name": "extras-journals",
-      "label": "Journal Entries",
+      "label": "Ebonmyst Journals",
       "banner": "modules/ebonmyst-extras/media/banners/ebonmyst.webp",
       "path": "packs/extras-journals",
       "type": "JournalEntry",
@@ -119,7 +119,7 @@
     },
     {
       "name": "extras-macros",
-      "label": "Macros",
+      "label": "Ebonmyst Macros",
       "banner": "modules/ebonmyst-extras/media/banners/ebonmyst.webp",
       "path": "packs/extras-macros",
       "type": "Macro",
@@ -129,7 +129,6 @@
         "ASSISTANT": "OWNER"
       }
     }
-
   ],
   "manifest": "https://github.com/The-Tabletop-Room/ebonmyst-extras/releases/latest/download/module.json",
   "download": "https://github.com/The-Tabletop-Room/ebonmyst-extras/releases/latest/download/module.zip",

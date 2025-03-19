@@ -1,3 +1,22 @@
-2025/03/17-02:23:04.291 8054 Recovering log #17
-2025/03/17-02:23:04.338 8054 Delete type=0 #17
-2025/03/17-02:23:04.338 8054 Delete type=3 #15
+2025/03/18-21:54:54.236 9160 Recovering log #27
+2025/03/18-21:54:54.287 9160 Delete type=0 #27
+2025/03/18-21:54:54.288 9160 Delete type=3 #25
+2025/03/18-23:39:45.559 5e28 Level-0 table #31: started
+2025/03/18-23:39:45.598 5e28 Level-0 table #31: 11080 bytes OK
+2025/03/18-23:39:45.645 5e28 Delete type=0 #29
+2025/03/18-23:39:45.660 5e28 Manual compaction at level-0 from '!folders!JSBobBNlKz9xvuuS' @ 72057594037927935 : 1 .. '!journal.pages!vGSKMxIuMGIGTzPi.lIB5xIeytNvMj1Zn' @ 0 : 0; will stop at '!journal.pages!vGSKMxIuMGIGTzPi.lIB5xIeytNvMj1Zn' @ 74 : 1
+2025/03/18-23:39:45.660 5e28 Compacting 2@0 + 0@1 files
+2025/03/18-23:39:45.697 5e28 Generated table #32@0: 12 keys, 4535 bytes
+2025/03/18-23:39:45.697 5e28 Compacted 2@0 + 0@1 files => 4535 bytes
+2025/03/18-23:39:45.778 5e28 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/03/18-23:39:45.778 5e28 Delete type=2 #26
+2025/03/18-23:39:45.779 5e28 Delete type=2 #31
+2025/03/18-23:39:45.806 5e28 Manual compaction at level-0 from '!journal.pages!vGSKMxIuMGIGTzPi.lIB5xIeytNvMj1Zn' @ 74 : 1 .. '!journal.pages!vGSKMxIuMGIGTzPi.lIB5xIeytNvMj1Zn' @ 0 : 0; will stop at (end)
+2025/03/18-23:39:45.830 5e28 Manual compaction at level-1 from '!folders!JSBobBNlKz9xvuuS' @ 72057594037927935 : 1 .. '!journal.pages!vGSKMxIuMGIGTzPi.lIB5xIeytNvMj1Zn' @ 0 : 0; will stop at '!journal.pages!vGSKMxIuMGIGTzPi.lIB5xIeytNvMj1Zn' @ 133 : 1
+2025/03/18-23:39:45.830 5e28 Compacting 1@1 + 1@2 files
+2025/03/18-23:39:45.865 5e28 Generated table #33@1: 13 keys, 4582 bytes
+2025/03/18-23:39:45.865 5e28 Compacted 1@1 + 1@2 files => 4582 bytes
+2025/03/18-23:39:45.904 5e28 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/03/18-23:39:45.905 5e28 Delete type=2 #20
+2025/03/18-23:39:45.905 5e28 Delete type=2 #32
+2025/03/18-23:39:45.940 5e28 Manual compaction at level-1 from '!journal.pages!vGSKMxIuMGIGTzPi.lIB5xIeytNvMj1Zn' @ 133 : 1 .. '!journal.pages!vGSKMxIuMGIGTzPi.lIB5xIeytNvMj1Zn' @ 0 : 0; will stop at (end)
