@@ -20,7 +20,28 @@
 
 <!-- ALL FOUNDRYVTT BADGES:END -->
 
-A companion module for the Tabletop Rooms homebrewed Pathfinder 2E game. While you are free to utilize this module in your own games, lore specific items may not make sense without the story context.
+A companion module for the Tabletop Room's homebrew Pathfinder 2E game. This module is not intended to be used outside of The Tabletop Room and it's associated games, while nothing should break use at your own risk. It has been provided as an open repo for the interest of out players.
+
+## Ebonmyst
+
+:beginner: Ebonmyst is a beginner friendly homebrew for Pathfinder 2E. Starting at first level and climbing from there. As the current game progresses additional creatures, items, journals, and other tools will continue to be added to this pack. There currently is no world based module to install but this may be included in the future.
+
+## Features
+
+:zap: Ebonmyst Pantheon Included - Fully configured and able to be attached/selected by characters.
+
+:beer: Custom items - Brew your own healing ales and more.
+
+:apple: Poison System - Fully converted poison crafting and ingredient foraging. (WIP)
+
+:notebook: Journal - Notes for things that just need a bit more information.
+
+:electric_plug: Macros - Custom macros to aid in gameplay for the DM and/or players.
+
+## To-Do
+
+- Custom Bestiary entries for unique creatures that may be found in the wilds of Ebonmyst.
+- Custom Spells and Effects from the unknown reaches of the southern continent.
 
 ## Installation
 
