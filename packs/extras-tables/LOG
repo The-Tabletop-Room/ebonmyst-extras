@@ -1,14 +1,14 @@
-2025/03/18-23:40:15.538 7140 Recovering log #32
-2025/03/18-23:40:15.595 7140 Delete type=0 #32
-2025/03/18-23:40:15.595 7140 Delete type=3 #30
-2025/03/18-23:54:48.470 73a4 Level-0 table #38: started
-2025/03/18-23:54:48.515 73a4 Level-0 table #38: 8887 bytes OK
-2025/03/18-23:54:48.573 73a4 Delete type=0 #36
-2025/03/18-23:54:48.718 73a4 Manual compaction at level-0 from '!folders!AikLk4abfvRZfExg' @ 72057594037927935 : 1 .. '!tables.results!nbbbL18kqkhRvPGa.vilx5qh64XqBtaGs' @ 0 : 0; will stop at '!tables.results!Ln6VndBB43pTsFMu.vQ6m6DGDK4rossMl' @ 3598 : 1
-2025/03/18-23:54:48.718 73a4 Compacting 1@0 + 1@1 files
-2025/03/18-23:54:48.759 73a4 Generated table #39@0: 66 keys, 9290 bytes
-2025/03/18-23:54:48.759 73a4 Compacted 1@0 + 1@1 files => 9290 bytes
-2025/03/18-23:54:48.826 73a4 compacted to: files[ 0 1 0 0 0 0 0 ]
-2025/03/18-23:54:48.827 73a4 Delete type=2 #34
-2025/03/18-23:54:48.827 73a4 Delete type=2 #38
-2025/03/18-23:54:48.869 73a4 Manual compaction at level-0 from '!tables.results!Ln6VndBB43pTsFMu.vQ6m6DGDK4rossMl' @ 3598 : 1 .. '!tables.results!nbbbL18kqkhRvPGa.vilx5qh64XqBtaGs' @ 0 : 0; will stop at (end)
+2025/03/19-21:10:55.144 6a0c Recovering log #37
+2025/03/19-21:10:55.211 6a0c Delete type=0 #37
+2025/03/19-21:10:55.212 6a0c Delete type=3 #35
+2025/03/19-22:23:59.151 a770 Level-0 table #43: started
+2025/03/19-22:23:59.249 a770 Level-0 table #43: 41371 bytes OK
+2025/03/19-22:23:59.310 a770 Delete type=0 #41
+2025/03/19-22:23:59.454 a770 Manual compaction at level-0 from '!folders!AikLk4abfvRZfExg' @ 72057594037927935 : 1 .. '!tables.results!znjhPhC6uzjgcfSA.oVhEft5bqhPtItbb' @ 0 : 0; will stop at '!tables.results!znjhPhC6uzjgcfSA.zdftipq3A2tv3g4L' @ 3625 : 1
+2025/03/19-22:23:59.454 a770 Compacting 1@0 + 1@1 files
+2025/03/19-22:23:59.495 a770 Generated table #44@0: 121 keys, 15882 bytes
+2025/03/19-22:23:59.495 a770 Compacted 1@0 + 1@1 files => 15882 bytes
+2025/03/19-22:23:59.553 a770 compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/03/19-22:23:59.553 a770 Delete type=2 #39
+2025/03/19-22:23:59.553 a770 Delete type=2 #43
+2025/03/19-22:23:59.560 a770 Manual compaction at level-0 from '!tables.results!znjhPhC6uzjgcfSA.zdftipq3A2tv3g4L' @ 3625 : 1 .. '!tables.results!znjhPhC6uzjgcfSA.oVhEft5bqhPtItbb' @ 0 : 0; will stop at (end)
