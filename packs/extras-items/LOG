@@ -1,15 +1,3 @@
-2025/03/19-22:34:51.346 83e4 Recovering log #227
-2025/03/19-22:34:51.410 83e4 Delete type=0 #227
-2025/03/19-22:34:51.410 83e4 Delete type=3 #225
-2025/03/20-00:03:24.388 1fc Level-0 table #233: started
-2025/03/20-00:03:24.477 1fc Level-0 table #233: 146417 bytes OK
-2025/03/20-00:03:24.523 1fc Delete type=0 #231
-2025/03/20-00:03:24.523 1fc Manual compaction at level-0 from '!folders!Be21Hs6Ph0AqCUp6' @ 72057594037927935 : 1 .. '!items!yikOMA61XEFACVyE' @ 0 : 0; will stop at (end)
-2025/03/20-00:03:24.523 1fc Manual compaction at level-1 from '!folders!Be21Hs6Ph0AqCUp6' @ 72057594037927935 : 1 .. '!items!yikOMA61XEFACVyE' @ 0 : 0; will stop at '!items!t2lta8wF9f3OizOH' @ 1316 : 1
-2025/03/20-00:03:24.523 1fc Compacting 1@1 + 1@2 files
-2025/03/20-00:03:24.638 1fc Generated table #234@1: 67 keys, 71430 bytes
-2025/03/20-00:03:24.638 1fc Compacted 1@1 + 1@2 files => 71430 bytes
-2025/03/20-00:03:24.688 1fc compacted to: files[ 0 0 1 0 0 0 0 ]
-2025/03/20-00:03:24.689 1fc Delete type=2 #229
-2025/03/20-00:03:24.689 1fc Delete type=2 #233
-2025/03/20-00:03:24.856 1fc Manual compaction at level-1 from '!items!t2lta8wF9f3OizOH' @ 1316 : 1 .. '!items!yikOMA61XEFACVyE' @ 0 : 0; will stop at (end)
+2025/03/21-02:53:45.075 3b9c Recovering log #239
+2025/03/21-02:53:52.627 3b9c Delete type=0 #239
+2025/03/21-02:53:52.627 3b9c Delete type=3 #237
